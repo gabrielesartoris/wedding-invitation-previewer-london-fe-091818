@@ -1,0 +1,32 @@
+body {
+  background: #3494E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header {
+  padding: 0px 0px;
+  color: rgb(228, 144, 54);
+  text-align: center;
+  font-family: Courier;
+  font-size: 50px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+form { 
+    margin:auto;
+    display: block;
+    width:50%;
+}
